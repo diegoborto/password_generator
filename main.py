@@ -2,7 +2,6 @@ import random
 import string
 
 lenght = 16
-out = ''
 password = ''
 
 def generate_random_letter():
