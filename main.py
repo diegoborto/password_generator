@@ -30,7 +30,12 @@ def case_selector():
         out = generate_random_symbol()
     return out
 
-for _ in range(lenght):
-    password += case_selector()
+print('Five Passwords generated, choose the best:')
+for i in range(5):
+    for _ in range(lenght):
+        password += case_selector()
+    print(password)
+    password = ''
 
-print(password)
+print('')    
+input('Program done. Press any key to exit.')
