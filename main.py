@@ -16,7 +16,7 @@ def generate_random_integer():
     return n
 
 def generate_random_symbol():
-    symbols = ['_', '!', '?','%', '$', ':']
+    symbols = ['_', '!', '?','%', '$', ':', '(', ')', '^']
     random_symbol = random.choice(symbols)
     return random_symbol
 
