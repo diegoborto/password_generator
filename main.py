@@ -1,7 +1,9 @@
 import random
 import string
 
-lenght = 16
+print('Welcome to th password generator!')
+
+length = input('What is the length of the password?')
 password = ''
 
 def generate_random_letter():
@@ -32,7 +34,7 @@ def case_selector():
 
 print('Five Passwords generated, choose the best:')
 for i in range(5):
-    for _ in range(lenght):
+    for _ in range(length):
         password += case_selector()
     print(password)
     password = ''
